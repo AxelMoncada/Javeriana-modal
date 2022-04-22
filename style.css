@@ -1,9 +1,10 @@
 body {
     font-family: 'Quicksand', sans-serif;
     background: #00B4DB;  /* fallback for old browsers */
-    background-color: #045de9;
-background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-height: 720px;
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     
 }
 
