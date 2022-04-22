@@ -1,0 +1,69 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h1 {
+    color: red;
+}
+
+.container{
+        padding-top: 60px  
+   
+}
+
+.contain{
+    
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+   
+   
+
+}
+
+.item img {
+    position: relative;
+    border-radius: 10px;
+    z-index: -1;
+    vertical-align: top;
+   
+}
+.item{
+    -webkit-box-shadow: 10px 10px 46px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 46px -5px rgba(0,0,0,0.55);
+    box-shadow: 10px 10px 46px -5px rgba(0,0,0,0.55);
+           
+    display: inline-block;
+   border-radius: 10px;
+    margin: 12px;
+    width: 125px;
+    height: 125px;
+    
+}
+
+.item:Hover{
+    -webkit-box-shadow: inset 0px -200px 75px -135px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px -200px 75px -135px rgba(0,0,0,0.75);
+box-shadow: inset 0px -200px 75px -135px rgba(0,0,0,0.75);
+
+
+ 
+
+}
+
+
+.caption p {
+   display: block;
+    color: white;
+    margin-top: -35px;
+    text-align: center;   
+    
+}
+.caption {
+    display: none;
+}
+
